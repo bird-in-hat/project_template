@@ -4,7 +4,7 @@ project(project_name)
 enable_testing()
 
 # Add Google Test
-add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/gtest")
+add_subdirectory("gtest")
 set(LIBRARY_DEPS "gtest")
 
 # Declare variables for binaries' names
